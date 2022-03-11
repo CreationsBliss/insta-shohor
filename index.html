@@ -100,12 +100,12 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  Accordion Item #2
+                                  What does JS event loop do?
                                 </button>
                               </h2>
                               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Javascript is single-threaded, meaning, it executes just a single activity at a time.That is why we say javascript is synchronous. But what occurs assuming an assignment takes too lengthy to even consider finishing? Will all the other tasks will wait for this particular task to complete? To avoid such issues, javascript has a concurrency model based on the event loop that provides it the ability to process multiple tasks asynchronously. Memory is distributed every time we create objects, functions, variables. This memory is stored in the heap. JS has only one call stack. Within the call stack JS code is read and executed line by line. If JS code takes too much time it will stay in the queue. This is how JS works.
                                 </div>
                               </div>
                             </div>
@@ -113,17 +113,34 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  Accordion Item #3
+                                  Difference between Local &amp; Session storage.
                                 </button>
                               </h2>
                               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <table class="table table-bordered table-hover mt-4">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Local storage</th>
+                                            <th scope="col">Session storage</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
                                 </div>
                               </div>
                             </div>
 
-                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,6 +149,7 @@
         <footer></footer>
 
         <!-- add javascript  file  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="./js/app.js"></script>
     </body>
 </html>
